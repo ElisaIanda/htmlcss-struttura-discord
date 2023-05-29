@@ -15,7 +15,7 @@ header{
     width: 100%;
     max-width: 980px;
     margin: auto;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .logo{
@@ -43,5 +43,37 @@ section{
 .first-section{
     margin: 25px 45px;
     background-color: palevioletred;
+    border: 1px dashed black;
     height: 250px;
+}
+
+.first-main-section{
+    background-color: white;
+    padding: 25px 0;
+}
+
+.first-column{
+    height: 350px;
+    background-color: cornflowerblue;
+    border: 1px dashed black;
+    flex-grow: 2;
+}
+
+.second-column{
+    height: 350px;
+    border: 1px dashed black;
+    flex-grow: 1;
+    background-color: pink;
+}
+
+.second-main-section{
+    background-color:lightgray;
+    padding: 25px 0;
+}
+
+.green-rectangle{
+    height: 550px;
+    background-color: green;
+    border: 1px dashed black;
+    flex-grow: 1;
 }
