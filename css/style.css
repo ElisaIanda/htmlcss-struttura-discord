@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: aqua;
+}
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    padding: 5px 0;
+}
+
+.logo{
+    flex-grow: 1;
+    border: 1px dashed black;
+    background-color: orange;
+}
+
+.link{
+    flex-grow: 2;
+    border: 1px dashed black;
+    background-color: orange;
+}
+
+.login{
+    flex-grow: 1;
+    border: 1px dashed black;
+    background-color: orange;
+}
+
+section{
+    background-color: blue;
+}
+
+.first-section{
+    margin: 25px 45px;
+    background-color: palevioletred;
+    height: 250px;
+}
