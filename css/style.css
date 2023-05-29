@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header{
+.nav-section{
     background-color: aqua;
 }
 .flex{
@@ -22,18 +22,23 @@ header{
     flex-grow: 1;
     border: 1px dashed black;
     background-color: orange;
+    padding: 5px;
 }
 
 .link{
     flex-grow: 2;
     border: 1px dashed black;
     background-color: orange;
+    padding: 5px;
+    text-align: center;
 }
 
 .login{
     flex-grow: 1;
     border: 1px dashed black;
     background-color: orange;
+    padding: 5px;
+    text-align: right;
 }
 
 section{
@@ -76,4 +81,68 @@ section{
     background-color: green;
     border: 1px dashed black;
     flex-grow: 1;
+}
+
+.first-footer-section{
+    background-color: #222121;
+    padding: 25px 0;
+}
+
+.pink-column{
+    height: 450px;
+    background-color: pink;
+    flex-grow: 2;
+    border: 1px dashed black;
+}
+
+.first-blue-column{
+    height: 450px;
+    background-color: cadetblue;
+    flex-grow: 1;
+    border: 1px dashed black;
+}
+
+.second-blue-column{
+    height: 450px;
+    background-color: cadetblue;
+    flex-grow: 1;
+    border: 1px dashed black;
+}
+
+.third-blue-column{
+    height: 450px;
+    background-color: cadetblue;
+    flex-grow: 1;
+    border: 1px dashed black;
+}
+
+.fourth-blue-column{
+    height: 450px;
+    background-color: cadetblue;
+    flex-grow: 1;
+    border: 1px dashed black;
+}
+
+.second-footer-section{
+    background-color: #222121;
+    padding-top: 25px;
+}
+
+.last-section{
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+.footer-logo{
+    background-color: orange;
+    border: 1px dashed black;
+    padding: 10px;
+}
+.footer-button{
+    background-color: orange;
+    border: 1px dashed black;
+    padding: 10px;
 }
